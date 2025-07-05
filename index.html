@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nim Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Nim Game</h1>
+    <p id="status">Your turn!</p>
+    <div id="pile">Pile: 15</div>
+    <div class="buttons">
+      <button onclick="playerMove(1)">Take 1</button>
+      <button onclick="playerMove(2)">Take 2</button>
+      <button onclick="playerMove(3)">Take 3</button>
+    </div>
+    <button id="resetBtn" onclick="resetGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
